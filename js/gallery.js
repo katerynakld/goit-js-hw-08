@@ -77,8 +77,7 @@ for (const image of images) {
 
   const galleryLink = document.createElement("a");
   galleryLink.classList.add("gallery-link");
-  galleryLink.setAttribute("href", "");
-  galleryLink.setAttribute("tagret", "_self");
+  galleryLink.setAttribute("href", image.original);
 
   gallery.append(galleryItem);
   galleryItem.append(galleryLink);
